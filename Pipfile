@@ -1,0 +1,36 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "==5.0.1"
+djangorestframework = "*"
+psycopg2-binary = "*"
+pillow = "*"
+djoser = "*"
+django-environ = "*"
+django-filter = "*"
+django-autoslug = "*"
+django-countries = "*"
+django-phonenumber-field = "*"
+phonenumbers = "*"
+flake8 = "*"
+isort = "*"
+black = "*"
+drf-yasg = "*"
+djangorestframework-simplejwt = "*"
+pyjwt = "*"
+django-cors-headers = "*"
+django-jazzmin = "*"
+django-import-export = "*"
+django-crispy-forms = "*"
+django-mathfilters = "*"
+django-ckeditor-5 = "*"
+django-taggit = "*"
+django-ckeditor = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
