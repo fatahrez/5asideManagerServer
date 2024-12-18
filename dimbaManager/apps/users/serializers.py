@@ -50,7 +50,7 @@ class CreateUserSerializer(serializers.ModelSerializer):
             user = Captain.objects.create(
                 username = validated_data["email"],
                 email = validated_data["email"],
-                first_name = validated_data["first_name"]
+                first_name = validated_data["first_name"],
                 password = validated_data["password"],
                 type=type
             )
